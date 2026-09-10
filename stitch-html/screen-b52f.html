@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kirnav Korner · কিৰ্ণভ কৰ্ণাৰ | Children's Department Store, Guwahati</title>
+<!-- Google Fonts & Material Symbols -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS with custom plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "surface-variant": "#e4e2df",
+            "inverse-on-surface": "#f2f0ed",
+            "inverse-surface": "#30312f",
+            "tertiary-fixed": "#ffddb6",
+            "on-tertiary": "#ffffff",
+            "primary": "#000000",
+            "surface-dim": "#dbdad7",
+            "background": "#fbf9f6",
+            "tertiary-fixed-dim": "#ffb959",
+            "primary-container": "#1e1b19",
+            "surface": "#fbf9f6",
+            "outline-variant": "#d0c4be",
+            "tertiary": "#000000",
+            "surface-bright": "#fbf9f6",
+            "on-error": "#ffffff",
+            "on-surface": "#1b1c1a",
+            "surface-container": "#efeeeb",
+            "error": "#ba1a1a",
+            "tertiary-container": "#2a1800",
+            "on-secondary-fixed-variant": "#7f2b00",
+            "surface-container-highest": "#e4e2df",
+            "inverse-primary": "#ccc5c2",
+            "outline": "#7e7570",
+            "on-tertiary-fixed-variant": "#643f00",
+            "secondary-fixed": "#ffdbce",
+            "on-tertiary-fixed": "#2a1800",
+            "on-error-container": "#93000a",
+            "secondary-container": "#fd651e",
+            "surface-container-high": "#eae8e5",
+            "on-primary-container": "#888380",
+            "secondary-fixed-dim": "#ffb599",
+            "surface-tint": "#625d5b",
+            "on-tertiary-container": "#b67600",
+            "on-secondary-container": "#571a00",
+            "secondary": "#a73a00",
+            "on-primary": "#ffffff",
+            "error-container": "#ffdad6",
+            "surface-container-lowest": "#ffffff",
+            "primary-fixed-dim": "#ccc5c2",
+            "on-secondary": "#ffffff",
+            "on-primary-fixed": "#1e1b19",
+            "primary-fixed": "#e9e1dd",
+            "on-secondary-fixed": "#370e00",
+            "surface-container-low": "#f5f3f0",
+            "on-primary-fixed-variant": "#4a4643",
+            "on-background": "#1b1c1a",
+            "on-surface-variant": "#4d4540"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-md": "1rem",
+            "margin-mobile": "1.25rem",
+            "space-2xs": "0.25rem",
+            "gutter-mobile": "1rem",
+            "max-width-content": "1320px",
+            "space-lg": "1.5rem",
+            "gutter-desktop": "2rem",
+            "space-sm": "0.75rem",
+            "margin-desktop": "3rem",
+            "space-xs": "0.5rem",
+            "space-3xl": "4.5rem",
+            "space-xl": "2rem",
+            "space-2xl": "3rem"
+          },
+          "fontFamily": {
+            "headline-sm": ["Playfair Display", "serif"],
+            "body-sm": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-lg": ["Playfair Display", "serif"],
+            "title-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "display-xl": ["Playfair Display", "serif"],
+            "headline-lg-mobile": ["Playfair Display", "serif"],
+            "title-md": ["Plus Jakarta Sans", "sans-serif"],
+            "body-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "display-xl-mobile": ["Playfair Display", "serif"],
+            "label-sm": ["Plus Jakarta Sans", "sans-serif"],
+            "label-md": ["Plus Jakarta Sans", "sans-serif"],
+            "label-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "body-md": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-md": ["Playfair Display", "serif"]
+          },
+          "fontSize": {
+            "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "600" }],
+            "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }],
+            "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "title-lg": ["18px", { "lineHeight": "26px", "fontWeight": "600" }],
+            "display-xl": ["56px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "600" }],
+            "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }],
+            "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }],
+            "display-xl-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+            "label-md": ["11px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "700" }],
+            "label-lg": ["13px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "600" }],
+            "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }],
+            "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .hide-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .hide-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface font-body-md text-body-md antialiased min-h-screen selection:bg-secondary-fixed selection:text-on-secondary-fixed pb-28">
+<!-- 1. Top Live Status Bar -->
+<aside class="bg-primary-container text-surface-variant px-margin-mobile py-1.5 text-body-sm font-body-sm border-b border-outline-variant/30 flex items-center justify-between">
+<div class="flex items-center space-x-2">
+<span class="inline-flex items-center font-label-md text-label-md text-tertiary-fixed bg-tertiary-container/80 px-2 py-0.5 rounded">
+        4.7 <span class="material-symbols-outlined text-[13px] ml-0.5 text-tertiary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-on-primary-container ml-1 font-normal">(33 Reviews)</span>
+</span>
+<span class="inline-flex items-center text-body-sm font-body-sm text-surface-bright pl-1">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-1.5 animate-pulse"></span>
+        Open Today · Closes 8:00 PM
+      </span>
+</div>
+<a class="hidden sm:inline-flex items-center text-body-sm font-body-sm font-semibold text-secondary-fixed hover:underline" href="tel:+919954361338">
+<span class="material-symbols-outlined text-sm mr-1">call</span>
+      +91 99543 61338
+    </a>
+</aside>
+<!-- 2. Mobile Top Navigation (Shared Component JSON: TopAppBar) -->
+<header class="sticky top-0 z-50 flex justify-between items-center w-full px-margin-mobile py-space-sm max-w-max-width-content mx-auto bg-surface dark:bg-surface-container-highest shadow-sm border-b border-outline-variant dark:border-outline transition-all">
+<div class="flex items-center gap-2">
+<button aria-label="Open Navigation Menu" class="p-1 rounded text-on-surface hover:bg-surface-container active:scale-95 transition-all">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface dark:text-inverse-on-surface tracking-tight leading-tight">
+          Kirnav Korner · কিৰ্ণভ কৰ্ণাৰ
+        </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">
+          RG Baruah Road · Opp. AIDC, Guwahati
+        </span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="hidden md:inline-flex items-center px-2.5 py-1 rounded bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md">
+        3 Store Floors
+      </span>
+<a aria-label="Call Store Directly" class="p-2 rounded-full bg-surface-container text-on-surface hover:text-secondary active:scale-95 transition-all" href="tel:+919954361338">
+<span class="material-symbols-outlined text-xl">storefront</span>
+</a>
+</div>
+</header>
+<main class="max-w-max-width-content mx-auto px-margin-mobile md:px-margin-desktop">
+<!-- 3. Impactful Mobile Hero -->
+<section class="pt-space-lg pb-space-xl">
+<div class="flex flex-col gap-space-md">
+<!-- Location Pill Eyebrow -->
+<div class="inline-flex items-center self-start gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-outline-variant/60">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-md text-label-md uppercase text-on-surface-variant tracking-wider">RG BARUAH ROAD · GUWAHATI</span>
+</div>
+<!-- Headline & Editorial Intro -->
+<div class="space-y-2">
+<h1 class="font-display-xl-mobile md:font-display-xl text-display-xl-mobile md:text-display-xl text-primary font-bold tracking-tight">
+            Everything little ones love. <span class="italic font-normal text-secondary block sm:inline">All in one little corner.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Beautiful things. Sensible prices. Three floors filled with newborn essentials, playful fashion, wooden Montessori toys, ride-ons, and school gear in the heart of Guwahati.
+          </p>
+</div>
+<!-- Hero Actions -->
+<div class="flex flex-wrap items-center gap-3 pt-1">
+<a class="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-container text-surface hover:bg-secondary active:scale-95 transition-all duration-200 font-label-lg text-label-lg font-semibold shadow-sm" href="#floorguide">
+            Visit The Store
+            <span class="material-symbols-outlined ml-1.5 text-base">arrow_downward</span>
+</a>
+<a class="inline-flex items-center justify-center px-5 py-3 rounded-lg border border-primary/20 bg-surface-container-lowest text-on-surface hover:bg-surface-container active:scale-95 transition-all duration-200 font-label-lg text-label-lg" href="#departments">
+            Explore Departments
+          </a>
+</div>
+<!-- Hero Architectural Facade Showcase -->
+<div class="relative mt-space-sm rounded-2xl overflow-hidden border border-outline-variant/50 shadow-md bg-surface-container-low group">
+<img class="w-full h-72 sm:h-96 md:h-[480px] object-cover object-center group-hover:scale-[1.01] transition-transform duration-500" data-alt="Dusk photograph of Kirnav Korner on RG Baruah Road Guwahati, a glowing modern multi-floor architectural glass storefront for children retail. The three levels are radiantly illuminated with warm golden lighting revealing baby clothes, toys, and bicycles inside. Wet pavement in the foreground reflects city lights under a twilight sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2eHn1iyQ0764KnLkBjDgVCAL9rKBuLBJLfwVwie6aala_tKbq-95WkH7FFJj8wgfu98TfBLn1ZO_58uf-x-kbYxv0qFDPW98loRWRWUKJ3Ru6jLxqxKGFm4HUT9Syo2UFl5zWphoV7G4-Id3HwAw2J5-iUBlhwAM55mzKD3ocPxK_Au4GxhHP6szQSDA3ZjufEZQ4HFv5Omc3gNIuSskB_mt6xBaVAeIoIs04pI2I4SqDdD1Z-PxVWXvimjPItRDtYkWZlncsBYab"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-black/20 pointer-events-none"></div>
+<div class="absolute bottom-3 left-3 right-3 flex flex-wrap items-center justify-between gap-2 p-3 rounded-xl bg-surface-container-lowest/90 backdrop-blur-sm border border-outline-variant/40">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-xl">location_on</span>
+<div>
+<p class="font-title-md text-title-md text-on-surface leading-tight">3 Floors of Discovery · Walk-in Today</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Opposite AIDC, Ambikagirinagar</p>
+</div>
+</div>
+<a class="inline-flex items-center px-3 py-1.5 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md active:scale-95 transition-all" href="https://maps.google.com/?q=Kirnav+Korner+RG+Baruah+Road+Guwahati" target="_blank">
+              Navigate
+              <span class="material-symbols-outlined text-sm ml-1">near_me</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Brand Value Strip -->
+<section class="py-space-md border-y border-outline-variant/40 bg-surface-container-low -mx-margin-mobile px-margin-mobile md:mx-0 md:rounded-xl">
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center sm:text-left">
+<div class="flex items-center justify-center sm:justify-start gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed shrink-0">
+<span class="material-symbols-outlined text-xl">apartment</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md font-semibold text-on-surface">3 Dedicated Floors</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Curated for infants, toddlers &amp; juniors</p>
+</div>
+</div>
+<div class="flex items-center justify-center sm:justify-start gap-3">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed shrink-0">
+<span class="material-symbols-outlined text-xl">sentiment_satisfied</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md font-semibold text-on-surface">More Joy, Less Fuss</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Everything checked off in one visit</p>
+</div>
+</div>
+<div class="flex items-center justify-center sm:justify-start gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-variant flex items-center justify-center text-on-surface shrink-0">
+<span class="material-symbols-outlined text-xl">favorite</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md font-semibold text-on-surface">Guwahati Family Hub</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Loved by families across Zoo Road</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Department Directory -->
+<section class="pt-space-2xl pb-space-xl" id="departments">
+<div class="mb-space-lg">
+<span class="font-label-md text-label-md uppercase text-secondary tracking-widest block mb-1">WHAT'S AROUND THE CORNER?</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-on-surface">
+          A little bit of everything for little ones.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Tap a department to preview in-store availability.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-space-md">
+<!-- 1. WEAR -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-outline-variant/60 shadow-sm hover:border-secondary transition-all flex flex-col justify-between h-48 sm:h-52">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-secondary-fixed text-on-secondary-fixed font-label-sm">LEVEL 1</span>
+<span class="material-symbols-outlined text-secondary text-2xl">checkroom</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold">WEAR</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+              Newborn frocks, ethnic festive kurta sets &amp; everyday soft cottons.
+            </p>
+</div>
+<span class="text-secondary font-label-md text-label-md inline-flex items-center">
+            Explore Wear <span class="material-symbols-outlined text-xs ml-1">arrow_forward</span>
+</span>
+</div>
+<!-- 2. PLAY -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-outline-variant/60 shadow-sm hover:border-secondary transition-all flex flex-col justify-between h-48 sm:h-52">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-tertiary-fixed text-on-tertiary-fixed font-label-sm">LEVEL 2</span>
+<span class="material-symbols-outlined text-secondary text-2xl">toys</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold">PLAY</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+              Montessori wooden blocks, brain puzzles &amp; electric ride-on jeeps.
+            </p>
+</div>
+<span class="text-secondary font-label-md text-label-md inline-flex items-center">
+            Explore Toys <span class="material-symbols-outlined text-xs ml-1">arrow_forward</span>
+</span>
+</div>
+<!-- 3. BABY -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-outline-variant/60 shadow-sm hover:border-secondary transition-all flex flex-col justify-between h-48 sm:h-52">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-surface-container-high text-on-surface font-label-sm">GROUND</span>
+<span class="material-symbols-outlined text-secondary text-2xl">child_friendly</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold">BABY</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+              Mee Mee baby gear, prams, sterilisers, organic diapers &amp; nursing.
+            </p>
+</div>
+<span class="text-secondary font-label-md text-label-md inline-flex items-center">
+            Baby Care <span class="material-symbols-outlined text-xs ml-1">arrow_forward</span>
+</span>
+</div>
+<!-- 4. STEP OUT -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-outline-variant/60 shadow-sm hover:border-secondary transition-all flex flex-col justify-between h-48 sm:h-52">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-surface-container-high text-on-surface font-label-sm">GROUND</span>
+<span class="material-symbols-outlined text-secondary text-2xl">roller_skating</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold">STEP OUT</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+              Pre-walkers, soft crib booties, school shoes &amp; light-up sneakers.
+            </p>
+</div>
+<span class="text-secondary font-label-md text-label-md inline-flex items-center">
+            Footwear <span class="material-symbols-outlined text-xs ml-1">arrow_forward</span>
+</span>
+</div>
+<!-- 5. SCHOOL -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-outline-variant/60 shadow-sm hover:border-secondary transition-all flex flex-col justify-between h-48 sm:h-52">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-secondary-fixed text-on-secondary-fixed font-label-sm">LEVEL 1</span>
+<span class="material-symbols-outlined text-secondary text-2xl">backpack</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold">SCHOOL</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+              Ergonomic backpacks, leakproof thermos bottles &amp; stationery kits.
+            </p>
+</div>
+<span class="text-secondary font-label-md text-label-md inline-flex items-center">
+            Stationery <span class="material-symbols-outlined text-xs ml-1">arrow_forward</span>
+</span>
+</div>
+<!-- 6. GIFT -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-outline-variant/60 shadow-sm hover:border-secondary transition-all flex flex-col justify-between h-48 sm:h-52">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-tertiary-fixed text-on-tertiary-fixed font-label-sm">ALL FLOORS</span>
+<span class="material-symbols-outlined text-secondary text-2xl">featured_seasonal_and_gifts</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold">GIFT</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+              Custom birthday hampers, baby shower baskets &amp; heirloom sets.
+            </p>
+</div>
+<span class="text-secondary font-label-md text-label-md inline-flex items-center">
+            Gift Hampers <span class="material-symbols-outlined text-xs ml-1">arrow_forward</span>
+</span>
+</div>
+</div>
+</section>
+<!-- 6. Abundance Visual Collage -->
+<section class="py-space-xl">
+<div class="bg-surface-container-low rounded-2xl p-space-md md:p-space-xl border border-outline-variant/50">
+<div class="max-w-xl mb-space-md">
+<span class="font-label-md text-label-md uppercase text-secondary tracking-widest block mb-1">IN-STORE EXPERIENCE</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-on-surface">
+            One store. A thousand little things.
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant italic mt-1">
+            "Walk in looking for one toy, walk out with everything checked off your list."
+          </p>
+</div>
+<!-- Editorial Arch Imagery & Callout Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md items-center">
+<div class="md:col-span-7 rounded-2xl overflow-hidden border border-outline-variant/60 shadow-sm">
+<img class="w-full h-64 sm:h-80 md:h-[400px] object-cover" data-alt="Interior luxury children boutique showroom at Kirnav Korner Guwahati with soft architectural terracotta alcove archways, illuminated oak wooden clothes racks displaying pastel baby wear, gentle ambient ceiling cove lighting, and a soft beige wool carpet on the polished floor." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCr27sKr--lNxh9b_h-5JJYCMYC2EoG66xZU99anPfkzWcdK0OSXcu3GAYKi1P2fmXiSzIu4Y6AHU2I3b14C9j1GNbnS59i96UdaJyxOZJg3ibvfQPaU42170WpRiUqjnaFrCzuKaedKe0HqQuV0Fwq-RmVusmxOUHaUdzlnigL5-iNUrO9603QUW_CSXs2ck9d_VnJ27380yCEwwlRSu7maw8oKJFbtwryHalBZnrFalExJAjRb-0VydnUDCH5qp55H2fEV8PRL39E"/>
+</div>
+<div class="md:col-span-5 flex flex-col gap-3">
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-outline-variant/40">
+<div class="flex items-center gap-2.5 text-secondary font-semibold font-title-md text-title-md">
+<span class="material-symbols-outlined">electric_car</span>
+                Floor 2: Ride-On Showroom
+              </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Kids can sit, test-drive, and choose battery cars and tricycles before you purchase.
+              </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-outline-variant/40">
+<div class="flex items-center gap-2.5 text-secondary font-semibold font-title-md text-title-md">
+<span class="material-symbols-outlined">styler</span>
+                Dedicated Kids' Trial Rooms
+              </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Spacious, well-ventilated dressing rooms designed comfortably for active toddlers.
+              </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-outline-variant/40">
+<div class="flex items-center gap-2.5 text-secondary font-semibold font-title-md text-title-md">
+<span class="material-symbols-outlined">support_agent</span>
+                Friendly Sizing Assistance
+              </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Our Guwahati team patiently helps measure and select appropriate fits across ages.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Value Section -->
+<section class="py-space-xl">
+<div class="text-center max-w-2xl mx-auto mb-space-lg">
+<span class="font-label-md text-label-md uppercase text-secondary tracking-widest block mb-1">PROMISE TO PARENTS</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-on-surface">
+          Beautiful things. Sensible prices.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          High boutique standards without the unreasonable luxury retail markup.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div class="p-space-lg rounded-xl bg-surface-container-lowest border border-outline-variant/50 shadow-sm flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-3">
+<span class="material-symbols-outlined text-2xl">spa</span>
+</div>
+<h3 class="font-title-lg text-title-lg font-semibold text-on-surface mb-1">1. Gentle on Growing Skin</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Hypoallergenic 100% combed cotton, breathable muslins, and dyes safe for sensitive infant and toddler skin.
+          </p>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest border border-outline-variant/50 shadow-sm flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed mb-3">
+<span class="material-symbols-outlined text-2xl">price_check</span>
+</div>
+<h3 class="font-title-lg text-title-lg font-semibold text-on-surface mb-1">2. Sensible Everyday Pricing</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Direct relationships with leading Indian manufacturers keep daily necessities affordable for young families.
+          </p>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest border border-outline-variant/50 shadow-sm flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed mb-3">
+<span class="material-symbols-outlined text-2xl">touch_app</span>
+</div>
+<h3 class="font-title-lg text-title-lg font-semibold text-on-surface mb-1">3. Touch &amp; Feel in Person</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Skip uncertain online returns. Touch natural fabrics, inspect toy joints, and ensure accurate fits right in store.
+          </p>
+</div>
+</div>
+</section>
+<!-- 8. Curated Lookbook ('KIRNAV FINDS') -->
+<section class="py-space-xl">
+<div class="flex items-end justify-between mb-space-md">
+<div>
+<span class="font-label-md text-label-md uppercase text-secondary tracking-widest block mb-1">KIRNAV FINDS</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-on-surface">
+            Caught our eye this week.
+          </h2>
+</div>
+<span class="hidden sm:inline-flex text-body-sm font-body-sm text-on-surface-variant">Swipe to discover →</span>
+</div>
+<!-- Horizontal Scrollable Container -->
+<div class="flex gap-4 overflow-x-auto hide-scrollbar pb-4 -mx-margin-mobile px-margin-mobile md:mx-0 md:px-0">
+<!-- Card 1: Festive Wear (Uses https://lh3.googleusercontent.com/aida/AEtjO1UtVW5flJgA84CqG2MepT6NuKgWZ2JICBa3o5mF_dTx6PVSIVAnBS1G4yV9sILmayU_jbQIzPzHGG7mc-2QlhLazusDS3O5vhcm-09kimeSVx6BiEuLXylh8gmS7K1HESuEuDmjN939UI_meGdp0u6gt1d6LWdB_Wu2oArdzFvh35pXQ6-Z9uhl7LxmGZtUo7eBB3mJvvQGwwYCZUFouyMYnMQPwB52PWxULvxbFsX-n8rzWNpNJtwqg3tX) -->
+<div class="w-64 sm:w-72 shrink-0 rounded-xl bg-surface-container-lowest border border-outline-variant/60 overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-64 bg-surface-container-low">
+<img alt="Boutique children fashion display in Guwahati store: elegant pastel handcrafted festive linen kurta jacket set" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1UtVW5flJgA84CqG2MepT6NuKgWZ2JICBa3o5mF_dTx6PVSIVAnBS1G4yV9sILmayU_jbQIzPzHGG7mc-2QlhLazusDS3O5vhcm-09kimeSVx6BiEuLXylh8gmS7K1HESuEuDmjN939UI_meGdp0u6gt1d6LWdB_Wu2oArdzFvh35pXQ6-Z9uhl7LxmGZtUo7eBB3mJvvQGwwYCZUFouyMYnMQPwB52PWxULvxbFsX-n8rzWNpNJtwqg3tX"/>
+<span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded font-label-sm text-label-sm bg-surface-container-lowest/90 text-on-surface font-semibold backdrop-blur-xs">
+              LEVEL 1 · WEAR
+            </span>
+</div>
+<div class="p-3.5 flex flex-col justify-between flex-1">
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold leading-snug">Festive Silk &amp; Linen Kurta Set</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Handcrafted traditional festive wear for age 1–6Y.</p>
+</div>
+<div class="mt-3 pt-3 border-t border-outline-variant/40 flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">₹1,499</span>
+<a class="inline-flex items-center text-xs font-semibold px-2.5 py-1.5 rounded bg-emerald-600 text-white hover:bg-emerald-700" href="https://wa.me/919954361338?text=Hello%20Kirnav%20Korner,%20is%20the%20Festive%20Silk%20Linen%20Kurta%20Set%20available?" target="_blank">
+                Inquire <span class="material-symbols-outlined text-xs ml-1">chat</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 2: Baby Gift Hamper (Uses https://lh3.googleusercontent.com/aida/AEtjO1XhvfWioY5mMRekxapRKV-hxyQGPwYdSQKr0ifptR5y-wokACW10h8n44PRgQyuz2I62NgVpkdt3V3wL1GM8tWjm8-_CL5rwIeKBZtXbaLK6C5RCNVPVGXxDCo23C6KaB5A6EfBOFgag0sTFG71C-wadw5644GgFPXwwG55Al-6xBToKuSJTnM6m86hpGc-dj1-W_rFOyF9AhPzRtbBb8VgORDtdrY1_ctiIeFHyXVzDYhOmT3xqx2lOJqt) -->
+<div class="w-64 sm:w-72 shrink-0 rounded-xl bg-surface-container-lowest border border-outline-variant/60 overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-64 bg-surface-container-low">
+<img alt="Curated luxury baby hamper and gift collection inside a high-end boutique in Guwahati with heirloom swaddle" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1XhvfWioY5mMRekxapRKV-hxyQGPwYdSQKr0ifptR5y-wokACW10h8n44PRgQyuz2I62NgVpkdt3V3wL1GM8tWjm8-_CL5rwIeKBZtXbaLK6C5RCNVPVGXxDCo23C6KaB5A6EfBOFgag0sTFG71C-wadw5644GgFPXwwG55Al-6xBToKuSJTnM6m86hpGc-dj1-W_rFOyF9AhPzRtbBb8VgORDtdrY1_ctiIeFHyXVzDYhOmT3xqx2lOJqt"/>
+<span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded font-label-sm text-label-sm bg-surface-container-lowest/90 text-on-surface font-semibold backdrop-blur-xs">
+              GIFT CONCIERGE
+            </span>
+</div>
+<div class="p-3.5 flex flex-col justify-between flex-1">
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold leading-snug">Heirloom Keepsake Muslin Hamper</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Organic swaddles, beechwood rattle &amp; soft booties.</p>
+</div>
+<div class="mt-3 pt-3 border-t border-outline-variant/40 flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">₹1,850</span>
+<a class="inline-flex items-center text-xs font-semibold px-2.5 py-1.5 rounded bg-emerald-600 text-white hover:bg-emerald-700" href="https://wa.me/919954361338?text=Hello%20Kirnav%20Korner,%20I%20would%20like%20to%20order%20the%20Heirloom%20Keepsake%20Muslin%20Hamper" target="_blank">
+                Inquire <span class="material-symbols-outlined text-xs ml-1">chat</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 3: Montessori Toys -->
+<div class="w-64 sm:w-72 shrink-0 rounded-xl bg-surface-container-lowest border border-outline-variant/60 overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-64 bg-surface-container-low">
+<img class="w-full h-full object-cover" data-alt="A beautifully crafted natural beechwood Montessori stacking rainbow and geometric wooden blocks arranged artfully on an unbleached linen surface under warm daylight. The aesthetic is clean, sustainable, organic, with soft pastel muted tones of terracotta and sage green." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2eVQ1efp2pLZrpdQfNa5BwDH6jv4vSryXO2PRmqcyV3V00kvLERWAlKMjOfUdMfnvMowOLPziRwraH1adns8XRBge4qs01kEoSUcaDWUlasFoNgxjXyJ_k7vVu-bfE6aGoDlslDsvBvMxIvQd-4aETKp4hiUJe927ovdBjawk9TChqSsPY_qUXqlGU7iz7b7kGaPJIpURDRmZ-g9I8YKIVxMfACYq9SDZAjTBlmMPoJZGOFJ2fN3v0OnQDO30HyUVqjL5zDYR4Gl9"/>
+<span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded font-label-sm text-label-sm bg-surface-container-lowest/90 text-on-surface font-semibold backdrop-blur-xs">
+              LEVEL 2 · PLAY
+            </span>
+</div>
+<div class="p-3.5 flex flex-col justify-between flex-1">
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold leading-snug">Beechwood Rainbow Stacker</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Non-toxic water dyes, fine motor development toy.</p>
+</div>
+<div class="mt-3 pt-3 border-t border-outline-variant/40 flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">₹749</span>
+<a class="inline-flex items-center text-xs font-semibold px-2.5 py-1.5 rounded bg-emerald-600 text-white hover:bg-emerald-700" href="https://wa.me/919954361338?text=Hello,%20is%20the%20Beechwood%20Rainbow%20Stacker%20in%20stock?" target="_blank">
+                Inquire <span class="material-symbols-outlined text-xs ml-1">chat</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 4: Baby Rompers -->
+<div class="w-64 sm:w-72 shrink-0 rounded-xl bg-surface-container-lowest border border-outline-variant/60 overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-64 bg-surface-container-low">
+<img class="w-full h-full object-cover" data-alt="Folded stack of three organic bamboo cotton baby rompers in gentle earthy shades of oat, terracotta, and eucalyptus green, placed beside a sprig of fresh cotton on a warm timber shelf. The lighting is soft and golden, highlighting tactile fabric texture." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwHGJW5St3Y0Tquu7jXO1Kw5nBxyOnpoLFjjTbd5JDB0FsUSaFPNk-C98eli8vv2UmH0sYvHg4kjk0WNI8aFkmX3y4actvW2wdZjorUBaeQPh_jnIVlyH21cTV6_0jLDieo-lcim9mIDsBXLwvYwLMeCMjBwZa8lZYO1F2NmrjHuOqz3y_8VeVGtykfrkcGr3qgmxIalD2c0wpW63uW44EY87VKSZqzGlbThj2dZFZoLJOL2t_JFbc_cnTfxuHjkML2hlP522zowpS"/>
+<span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded font-label-sm text-label-sm bg-surface-container-lowest/90 text-on-surface font-semibold backdrop-blur-xs">
+              GROUND · BABY
+            </span>
+</div>
+<div class="p-3.5 flex flex-col justify-between flex-1">
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold leading-snug">Bamboo Rompers (Pack of 3)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Breathable two-way zip sleepsuits for newborn to 12M.</p>
+</div>
+<div class="mt-3 pt-3 border-t border-outline-variant/40 flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">₹899</span>
+<a class="inline-flex items-center text-xs font-semibold px-2.5 py-1.5 rounded bg-emerald-600 text-white hover:bg-emerald-700" href="https://wa.me/919954361338?text=Hello,%20I%20am%20inquiring%20about%20the%20Bamboo%20Rompers%20Pack%20of%203" target="_blank">
+                Inquire <span class="material-symbols-outlined text-xs ml-1">chat</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. Physical Store Guide -->
+<section class="py-space-xl" id="floorguide">
+<div class="mb-space-md">
+<span class="font-label-md text-label-md uppercase text-secondary tracking-widest block mb-1">COME SEE IT FOR YOURSELF</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-on-surface">
+          3-Floor Store Directory
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          Spacious levels designed for relaxed strolling with prams and family.
+        </p>
+</div>
+<!-- Floor Stacking Layout -->
+<div class="space-y-3">
+<!-- Floor 2 -->
+<div class="p-4 sm:p-5 rounded-xl bg-surface-container-lowest border-l-4 border-l-secondary border border-outline-variant/50 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+<div class="flex items-start gap-3">
+<span class="w-10 h-10 rounded-lg bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold text-sm shrink-0">
+              L2
+            </span>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-title-lg text-title-lg font-semibold text-on-surface">Floor 2: Mega Toy World &amp; Ride-Ons</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+                🚗 Electric battery jeeps, remote cars, bicycles, dollhouses, Montessori wooden kits &amp; board games.
+              </p>
+</div>
+</div>
+<span class="self-start sm:self-auto px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant text-xs font-semibold">
+            Try In-Store
+          </span>
+</div>
+<!-- Floor 1 -->
+<div class="p-4 sm:p-5 rounded-xl bg-surface-container-lowest border-l-4 border-l-tertiary-fixed-dim border border-outline-variant/50 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+<div class="flex items-start gap-3">
+<span class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center font-bold text-sm shrink-0">
+              L1
+            </span>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-title-lg text-title-lg font-semibold text-on-surface">Floor 1: Fashion &amp; Festive Apparel</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+                👗 Party frocks, Assamese festive attire, ethnic kurtas, casual tees, nightwear &amp; fitting rooms.
+              </p>
+</div>
+</div>
+<span class="self-start sm:self-auto px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant text-xs font-semibold">
+            Fitting Rooms
+          </span>
+</div>
+<!-- Ground Floor -->
+<div class="p-4 sm:p-5 rounded-xl bg-surface-container-lowest border-l-4 border-l-primary border border-outline-variant/50 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+<div class="flex items-start gap-3">
+<span class="w-10 h-10 rounded-lg bg-surface-variant text-on-surface flex items-center justify-center font-bold text-sm shrink-0">
+              G
+            </span>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-title-lg text-title-lg font-semibold text-on-surface">Ground Floor: Newborn &amp; Baby Gear</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+                🍼 Newborn layettes, Mee Mee feeding accessories, strollers, baby cots, diapers &amp; footwear.
+              </p>
+</div>
+</div>
+<span class="self-start sm:self-auto px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant text-xs font-semibold">
+            Stroller Friendly
+          </span>
+</div>
+</div>
+<!-- Amenities strip -->
+<div class="mt-4 grid grid-cols-3 gap-2 text-center text-body-sm font-body-sm text-on-surface-variant">
+<div class="p-2.5 rounded-lg bg-surface-container border border-outline-variant/40 flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary">local_parking</span>
+<span>Customer Parking</span>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container border border-outline-variant/40 flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary">ac_unit</span>
+<span>100% Air Conditioned</span>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container border border-outline-variant/40 flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary">stroller</span>
+<span>Stroller Aisles</span>
+</div>
+</div>
+</section>
+<!-- 10. Genuine Verified Google Reviews -->
+<section class="py-space-xl">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between mb-space-md gap-2">
+<div>
+<span class="font-label-md text-label-md uppercase text-secondary tracking-widest block mb-1">CUSTOMER VOICES</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-on-surface">
+            Loved by Guwahati parents.
+          </h2>
+</div>
+<div class="flex items-center gap-1.5 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">stars</span>
+<span>Rated 4.7 out of 5 on Google</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Review 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-outline-variant/50 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-tertiary-fixed-dim mb-2">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+              "Very good store, price are reasonable, good collection and very good service."
+            </p>
+</div>
+<div class="mt-4 pt-3 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-title-md text-title-md font-semibold text-on-surface">Monika Das</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Verified Google Review</span>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-outline-variant/50 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-tertiary-fixed-dim mb-2">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+              "Best place to shop for clothes and essential items for babies and children in Zoo Road / AIDC area. Staff is patient."
+            </p>
+</div>
+<div class="mt-4 pt-3 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-title-md text-title-md font-semibold text-on-surface">Arunabh Chakravarty</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Verified Google Review</span>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-outline-variant/50 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-tertiary-fixed-dim mb-2">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+              "Wonderful collection of high quality garments, child attire and toys. Truly stands apart in Guwahati."
+            </p>
+</div>
+<div class="mt-4 pt-3 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-title-md text-title-md font-semibold text-on-surface">Dr. Indrajit Kalita</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Verified Google Review</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 11. Store Location & Connectivity -->
+<section class="py-space-xl">
+<div class="p-space-md sm:p-space-xl rounded-2xl bg-surface-container-lowest border border-outline-variant/60 shadow-sm grid grid-cols-1 md:grid-cols-2 gap-space-lg items-center">
+<div>
+<span class="font-label-md text-label-md uppercase text-secondary tracking-widest block mb-1">RIGHT HERE IN GUWAHATI</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-bold text-on-surface">
+            Visit our 3-floor destination on RG Baruah Road.
+          </h2>
+<div class="space-y-3 mt-4">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-xl mt-0.5">pin_drop</span>
+<div>
+<strong class="text-on-surface block font-title-md text-title-md">Store Address:</strong>
+<span class="text-on-surface-variant text-body-md">RG Baruah Rd, Opp. AIDC, Ambikagirinagar, Guwahati, Assam 781024</span>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-xl mt-0.5">schedule</span>
+<div>
+<strong class="text-on-surface block font-title-md text-title-md">Store Timings:</strong>
+<span class="text-on-surface-variant text-body-md">Monday – Sunday: 10:00 AM – 8:00 PM <span class="text-emerald-700 font-semibold">(Open All 7 Days)</span></span>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-xl mt-0.5">call</span>
+<div>
+<strong class="text-on-surface block font-title-md text-title-md">Direct Contact:</strong>
+<a class="text-secondary font-semibold text-body-md hover:underline" href="tel:+919954361338">+91 99543 61338</a>
+</div>
+</div>
+</div>
+<div class="mt-space-md flex flex-wrap gap-2">
+<a class="inline-flex items-center px-4 py-2.5 rounded-lg bg-primary-container text-surface hover:bg-secondary active:scale-95 transition-all text-label-lg font-semibold" href="https://maps.google.com/?q=Kirnav+Korner+RG+Baruah+Road+Guwahati" target="_blank">
+<span class="material-symbols-outlined mr-1.5 text-base">directions</span>
+              Navigate via Google Maps
+            </a>
+<a class="inline-flex items-center px-4 py-2.5 rounded-lg border border-outline-variant bg-surface-container text-on-surface hover:bg-surface-container-high active:scale-95 transition-all text-label-lg font-semibold" href="tel:+919954361338">
+<span class="material-symbols-outlined mr-1.5 text-base">phone_in_talk</span>
+              Call Front Desk
+            </a>
+</div>
+</div>
+<!-- Map & Landmark Card Preview -->
+<div class="rounded-xl overflow-hidden border border-outline-variant/60 shadow-inner bg-surface-container-high h-64 sm:h-72 relative">
+<img class="w-full h-full object-cover" data-alt="Editorial illustrated city map visualization of Guwahati Zoo Road and RG Baruah Road showing the Kirnav Korner department store landmark marker opposite AIDC Ambikagirinagar in Assam India. Clean minimalist cartographic design with terracotta and warm ivory hues." data-location="Guwahati" src="https://lh3.googleusercontent.com/aida-public/AB6AXuByarvzsZoneLqD-d1AK8EtHtDBNfkgT1tejY0q6E2p8tQhJQJYf3cPxYBhqanIgGooJMww1lOOzSe_9AmGuKtkh7S08O9iMjBWhxlTKZUsXZ8js1JIvXxjsoraMpP5F3T7X-pzswNcUmKR2RQZ5nqBbtKtlXQg4_e38LWr7IBo1LnKmkbTX4GQeDiAd-J2kQtqY9PegfgTzrZO998GeSxtDaMjr287Omxn-_IPqg96ZI4a2e5_8SWBF6pJb-Kj43hhxhjfHBDCA3fG"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm px-3 py-1.5 rounded-md border border-outline-variant/40 shadow-sm text-xs font-semibold text-on-surface">
+            📍 Opp. AIDC, RG Baruah Road
+          </div>
+</div>
+</div>
+</section>
+<!-- 12. Final CTA Banner -->
+<section class="py-space-xl">
+<div class="p-space-lg sm:p-space-2xl rounded-2xl bg-secondary text-on-secondary shadow-lg relative overflow-hidden text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-6">
+<div class="max-w-xl">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary-fixed block mb-1">
+            KIRNAV KORNER · কিৰ্ণভ কৰ্ণাৰ
+          </span>
+<h2 class="font-headline-lg-mobile sm:font-headline-lg text-headline-lg-mobile sm:text-headline-lg font-bold">
+            Come find your little corner today.
+          </h2>
+<p class="font-body-md text-body-md text-secondary-fixed mt-2">
+            Bring your little ones along. Test toys, touch fabrics, and enjoy stress-free family shopping across our 3 floors on RG Baruah Road.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row gap-3 shrink-0">
+<a class="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-surface-container-lowest text-on-surface hover:bg-secondary-fixed active:scale-95 transition-all font-label-lg text-label-lg font-bold shadow-sm" href="https://wa.me/919954361338?text=Hello%20Kirnav%20Korner,%20I%20am%20planning%20to%20visit%20today." target="_blank">
+<span class="material-symbols-outlined text-emerald-700 mr-2">chat</span>
+            WhatsApp Us
+          </a>
+<a class="inline-flex items-center justify-center px-5 py-3 rounded-lg border-2 border-secondary-fixed text-on-secondary hover:bg-on-secondary/10 active:scale-95 transition-all font-label-lg text-label-lg font-bold" href="tel:+919954361338">
+            Call +91 99543 61338
+          </a>
+</div>
+</div>
+</section>
+<!-- Footer Notes -->
+<footer class="pt-space-md pb-space-lg border-t border-outline-variant/40 text-center text-on-surface-variant font-body-sm text-body-sm">
+<p class="font-semibold text-on-surface">Kirnav Korner · কিৰ্ণভ কৰ্ণাৰ</p>
+<p class="mt-1">Guwahati's Premier Multi-Floor Physical Children's Department Store</p>
+<p class="text-xs text-on-surface-variant/70 mt-1">RG Baruah Road, Opposite AIDC, Ambikagirinagar, Guwahati, Assam 781024</p>
+</footer>
+</main>
+<!-- 13. Fixed Sticky Mobile Action Bar (Shared Component JSON: BottomNavBar) -->
+<!-- Contextual Active: 'Directions' is active as the core intent is visiting the physical store in Guwahati -->
+<nav aria-label="Bottom Navigation" class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-margin-mobile py-space-xs bg-surface-container-lowest dark:bg-surface-container-highest shadow-lg border-t border-outline-variant dark:border-outline md:hidden">
+<!-- Button 1: Directions (Active Navigation State per JSON style_active_navigation) -->
+<a class="flex flex-col items-center justify-center bg-secondary-container dark:bg-secondary text-on-secondary-container dark:text-on-secondary rounded-lg px-space-md py-space-xs font-label-md text-label-md active:scale-95 transition-transform duration-150" href="https://maps.google.com/?q=Kirnav+Korner+RG+Baruah+Road+Guwahati" target="_blank">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">directions</span>
+<span>Directions</span>
+</a>
+<!-- Button 2: Call Store (Inactive Navigation State per JSON style_inactive_navigation) -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-inverse-on-surface px-space-md py-space-xs font-label-md text-label-md active:scale-95 transition-transform duration-150" href="tel:+919954361338">
+<span class="material-symbols-outlined text-lg">call</span>
+<span>Call Store</span>
+</a>
+<!-- Button 3: WhatsApp (Inactive Navigation State per JSON style_inactive_navigation) -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-inverse-on-surface px-space-md py-space-xs font-label-md text-label-md active:scale-95 transition-transform duration-150" href="https://wa.me/919954361338?text=Hello%20Kirnav%20Korner,%20I%20am%20inquiring%20about%20store%20items." target="_blank">
+<span class="material-symbols-outlined text-lg">chat</span>
+<span>WhatsApp</span>
+</a>
+</nav>
+</body></html>
