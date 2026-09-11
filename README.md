@@ -1,7 +1,7 @@
 # Kirnav Korner | Luxury & Affordable Children's Store
 
 > **"Everything a child needs, in one little corner."**  
-> Guwahati’s premier 3-floor children's department store offering boutique luxury at honest, everyday prices.
+> Guwahati’s premier children's department store offering boutique luxury at honest, everyday prices — everything available at one big expansive showroom.
 
 [![Vite](https://img.shields.io/badge/Vite-8.2-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-v4-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
@@ -40,7 +40,7 @@
 - **WhatsApp**: [+91 99543 61338](https://wa.me/919954361338)
 - **Google Rating**: 4.7 / 5 from 33+ verified reviews
 - **Hours**: Open 7 Days a Week • 10:00 AM – 8:00 PM
-- **Key Proposition**: Expansive 3-floor physical boutique offering high-end children’s apparel, footwear, ride-on toys, nursery essentials, and baby care at affordable, accessible prices.
+- **Key Proposition**: Expansive physical showroom offering high-end children’s apparel, footwear, ride-on toys, nursery essentials, and baby care all under one roof at affordable, accessible prices.
 
 ---
 
@@ -65,17 +65,17 @@ KirnavKorner/
 │   │   ├── interior-full.webp      # Showroom interior overview
 │   │   └── real/                   # Real in-store photographs of Kirnav Korner
 │   │       ├── kk-1.webp           # Floral crib booties display
-│   │       ├── kk-2.webp           # 2nd floor Mercedes battery ride-on cars
+│   │       ├── kk-2.webp           # Mercedes battery ride-on cars showcase
 │   │       ├── kk-3.webp           # Boxed festive collared shirts
-│   │       ├── kk-4.webp           # Ground floor front billing & accessories counter
+│   │       ├── kk-4.webp           # Store front billing & accessories counter
 │   │       ├── kk-5.webp           # Baby pre-walker booties & footwear rack
 │   │       ├── kk-6.webp           # Sporty electric ride-on bike
 │   │       ├── kk-7.webp           # Multi-tier kids footwear wall
 │   │       ├── kk-8.webp           # Festive girls party dresses & gowns
 │   │       ├── kk-9.webp           # Toddler cotton rompers & dungarees
 │   │       ├── kk-10.webp          # Navy floral cushioned canopy baby stroller
-│   │       ├── kk-11.webp          # Ground floor yellow dinosaur mascot & trial rooms
-│   │       ├── kk-12.webp          # Dusk exterior 3-floor building facade
+│   │       ├── kk-11.webp          # Yellow dinosaur mascot & trial rooms
+│   │       ├── kk-12.webp          # Dusk exterior showroom facade
 │   │       └── kk-13.webp          # Plush giant teddy bears & soft seats
 │   │
 │   └── screenshots/         # Automated responsive visual test captures
@@ -128,16 +128,16 @@ The layout is built with standard semantic HTML5 inside [`index.html`](file:///d
    - Each card features custom icon badges, age ranges (e.g., `0–24M`, `2–10Y`), and pre-filled WhatsApp inquiry deep-links.
 
 6. **Section 3: Guwahati Flagship Showcase (`#flagship`)**:
-   - Highlighting the **3-floor RG Baruah Road showroom**.
-   - Real photographs of the exterior dusk facade (`kk-12.webp`), ground floor dinosaur mascot and fitting rooms (`kk-11.webp`), and 2nd floor ride-on vehicle showroom (`kk-2.webp`).
-   - Balanced `font-body-md text-body-md` typography communicating the affordable luxury philosophy.
+   - Highlighting the **expansive RG Baruah Road showroom**.
+   - Real photographs of the exterior dusk facade (`kk-12.webp`), yellow dinosaur mascot and fitting rooms (`kk-11.webp`), and ride-on vehicle showroom (`kk-2.webp`).
+   - Balanced `font-body-md text-body-md` typography communicating the affordable luxury philosophy: *"Everything available here at one big expansive showroom"*.
    - Feature chips: *Affordable Luxury*, *100% Skin-Safe*, and *Trial Rooms*.
 
 7. **Section 4: The Kirnav Philosophy (Value Pillars)**:
    - Three cards breaking down why Guwahati parents trust Kirnav Korner:
      1. **Boutique Luxury Standards**: Hypoallergenic organic cottons, teething-safe dyes, heirloom durability.
      2. **Honest, Everyday Pricing**: Zero inflated boutique markups through direct sourcing.
-     3. **Expansive 3-Floor Showroom**: Everything under one welcoming roof.
+     3. **One Big Expansive Showroom**: Everything available here under one welcoming roof.
 
 8. **Section 5: Real In-Store Collection Gallery (`#gallery`)**:
    - Curated horizontal snap-scrolling showcase using genuine store inventory:
@@ -157,7 +157,7 @@ The layout is built with standard semantic HTML5 inside [`index.html`](file:///d
 
 10. **Section 7: Store & Location Experience (`#store-visit`)**:
     - Comprehensive physical store details: address, landmark (Opp. AIDC on RG Baruah Rd), phone number, and hours.
-    - Ground floor visual locator preview card (`kk-4.webp`).
+    - Store front visual locator preview card (`kk-4.webp`).
     - Amenities badges: Free dedicated customer parking and 100% air-conditioned showroom.
     - One-tap buttons for Google Maps GPS Directions and Call Store.
 
