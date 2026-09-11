@@ -114,40 +114,52 @@ The layout is built with standard semantic HTML5 inside [`index.html`](file:///d
    - Full keyboard accessibility (`Escape` key closes drawer) and auto-close when any nav link is tapped.
 
 3. **Top Announcement Banner**:
-   - Highlight: *"Affordable Luxury for Little Ones: Boutique children's fashion, organic layettes & heirloom toys at honest, everyday prices."*
+   - Highlight: *"Affordable Luxury for Little Ones: Children's fashion, newborn layettes, battery ride-ons & footwear at honest everyday prices."*
 
 4. **Section 1: Editorial Hero (`<section>`)**:
-   - Asymmetric layout: Headline *"Everything Little Ones Love. All in One Place."*
-   - Clear value subtitle highlighting affordable boutique luxury for Guwahati families.
+   - Asymmetric editorial layout with authentic store photography:
+     - Real dusk illuminated facade (`kk-12.webp`) on RG Baruah Road with bilingual signage (`কিৰ্ণভ কৰ্ণৰ`).
+     - Floating inset card highlighting the yellow Mercedes AMG battery ride-on car (`kk-2.webp`).
+     - Verified Google review pill: **4.7 ★ (33+ Google reviews)**.
+     - Trust badges: *Fixed Honest Prices*, *Trial Rooms & Tailoring*, and *Customer Parking*.
    - Two high-contrast CTA buttons: *"Explore collections"* (anchor to `#categories`) and *"Visit our store"* (anchor to `#store-visit`).
-   - Floating social proof pill: **4.7 ★ (33+ Google reviews)**.
-   - Curved arched frame displaying warm mother-child photography.
 
 5. **Section 2: Curated Categories Grid (`#categories`)**:
-   - 8 structured product category cards (Baby Clothing, Kids Clothing, Toys & Games, Baby Gear, Footwear, Books & Learning, Nursery & Bedding, New Arrivals).
-   - Each card features custom icon badges, age ranges (e.g., `0–24M`, `2–10Y`), and pre-filled WhatsApp inquiry deep-links.
+   - 8 structured product category cards grounded in real store inventory:
+     1. Infant & Newborn Layettes (`0–24M`)
+     2. Kids Fashion & Festive Wear (`1–12Y`)
+     3. Battery Ride-Ons & Trikes (`Test-Drive`)
+     4. Prams, Strollers & Walkers (`Mobility`)
+     5. Kids Footwear Collection (`All Ages`)
+     6. Plush Toys & Gifting (`Gift Ready`)
+     7. School & Daycare Essentials (`Daily Prep`)
+     8. Baby Care & Nursery Bedding (`Essentials`)
+   - Each card features custom icon badges, department descriptions, and direct pre-filled WhatsApp inquiry deep-links.
 
 6. **Section 3: Guwahati Flagship Showcase (`#flagship`)**:
    - Highlighting the **expansive RG Baruah Road showroom**.
    - Real photographs of the exterior dusk facade (`kk-12.webp`), yellow dinosaur mascot and fitting rooms (`kk-11.webp`), and ride-on vehicle showroom (`kk-2.webp`).
-   - Balanced `font-body-md text-body-md` typography communicating the affordable luxury philosophy: *"Everything available here at one big expansive showroom"*.
-   - Feature chips: *Affordable Luxury*, *100% Skin-Safe*, and *Trial Rooms*.
+   - In-store distinctives: *Affordable Luxury*, *Trial Rooms*, and *In-House Tailoring* (on-site alteration counter).
+   - Partner brands marquee: *Mee Mee*, *Himalaya BabyCare*, *Morisons Baby Dreams*, *Baybee*, *Doreme*, and *Infinia*.
 
 7. **Section 4: The Kirnav Philosophy (Value Pillars)**:
    - Three cards breaking down why Guwahati parents trust Kirnav Korner:
      1. **Boutique Luxury Standards**: Hypoallergenic organic cottons, teething-safe dyes, heirloom durability.
-     2. **Honest, Everyday Pricing**: Zero inflated boutique markups through direct sourcing.
+     2. **Honest, Everyday Pricing**: Zero inflated boutique markups with transparent fixed pricing.
      3. **One Big Expansive Showroom**: Everything available here under one welcoming roof.
 
 8. **Section 5: Real In-Store Collection Gallery (`#gallery`)**:
-   - Curated horizontal snap-scrolling showcase using genuine store inventory:
-     - Boxed festive collared shirts (`kk-3.webp`)
-     - Giant plush teddy bears (`kk-13.webp`)
-     - Newborn floral crib booties (`kk-1.webp`)
-     - Cushioned multi-recline canopy stroller (`kk-10.webp`)
-     - Kids party footwear wall (`kk-7.webp`)
-     - Sporty electric battery bikes (`kk-6.webp`)
-     - Casual summer rompers (`kk-9.webp`)
+   - Curated horizontal snap-scrolling showcase featuring 10 genuine store products:
+     - Canvas Infant Pre-Walkers (`kk-8.webp`)
+     - Sporty R1 Electric Superbike (`kk-9.webp`)
+     - Insulated Character Thermos Flasks (`kk-6.webp`)
+     - Boxed Festive Collared Shirts (`kk-3.webp`)
+     - Giant Plush Soft Toys & Teddies (`kk-13.webp`)
+     - Floral Crib Booties & Gold Shoes (`kk-1.webp`)
+     - Cushioned Canopy Baby Stroller (`kk-10.webp`)
+     - Kids Party Sandals & Light-Up Sneakers (`kk-7.webp`)
+     - Mercedes AMG Battery Ride-On Sports Car (`kk-2.webp`)
+     - Revolving Disney Sunglasses Carousel (`kk-4.webp`)
    - Each item includes a direct one-tap *"Inquire on WhatsApp"* button with pre-filled item inquiry text.
 
 9. **Section 6: Google Customer Reviews (`#reviews`)**:
@@ -156,9 +168,9 @@ The layout is built with standard semantic HTML5 inside [`index.html`](file:///d
    - Verified local reviews from Guwahati parents highlighting honest prices, quality garments, patient staff, and diverse collection.
 
 10. **Section 7: Store & Location Experience (`#store-visit`)**:
-    - Comprehensive physical store details: address, landmark (Opp. AIDC on RG Baruah Rd), phone number, and hours.
+    - Comprehensive physical store details: address (Plot 208, RG Baruah Rd, Opp. AIDC, Guwahati), phone number, and hours (10:00 AM – 8:00 PM).
     - Store front visual locator preview card (`kk-4.webp`).
-    - Amenities badges: Free dedicated customer parking and 100% air-conditioned showroom.
+    - 4 in-store amenities: Free customer parking, 100% air-conditioned, fitting trial rooms, and in-store tailoring.
     - One-tap buttons for Google Maps GPS Directions and Call Store.
 
 11. **Section 8: WhatsApp Concierge CTA**:
@@ -168,7 +180,7 @@ The layout is built with standard semantic HTML5 inside [`index.html`](file:///d
     - Warm closing banner with quick links and trust guarantees.
 
 13. **Footer (`<footer>`) & Mobile Bottom Floating Bar**:
-    - Complete site directory, hours, copyright, and direct concierge contact.
+    - Complete site directory, hours (10:00 AM – 8:00 PM), bilingual Assamese copyright, and direct concierge contact.
     - Mobile-only fixed sticky bottom bar with three touch targets: **WhatsApp**, **Call**, and **Directions**, fully supporting mobile safe-area insets (`env(safe-area-inset-bottom)`).
 
 ---
