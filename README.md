@@ -65,12 +65,12 @@ KirnavKorner/
 │   │   ├── interior-full.webp      # Showroom interior overview
 │   │   └── real/                   # Real in-store photographs of Kirnav Korner
 │   │       ├── kk-1.webp           # Floral crib booties display
-│   │       ├── kk-2.webp           # Mercedes battery ride-on cars showcase
+│   │       ├── kk-2.webp           # Branded battery ride-on cars showcase
 │   │       ├── kk-3.webp           # Boxed festive collared shirts
 │   │       ├── kk-4.webp           # Store front billing & accessories counter
 │   │       ├── kk-5.webp           # Baby pre-walker booties & footwear rack
 │   │       ├── kk-6.webp           # Sporty electric ride-on bike
-│   │       ├── kk-7.webp           # Multi-tier kids footwear wall
+│   │       ├── kk-7.webp           # Multi-tier kids & teen footwear wall
 │   │       ├── kk-8.webp           # Festive girls party dresses & gowns
 │   │       ├── kk-9.webp           # Toddler cotton rompers & dungarees
 │   │       ├── kk-10.webp          # Navy floral cushioned canopy baby stroller
@@ -104,35 +104,40 @@ The layout is built with standard semantic HTML5 inside [`index.html`](file:///d
 
 1. **Fixed Header (`<header>`)**:
    - Responsive navbar with boutique wordmark and clear visual branding.
-   - Desktop navigation links (`Home`, `Collections` → `#categories`, `About` → `#flagship`, `Reviews` → `#reviews`, `Visit Us` → `#store-visit`, `Contact` → WhatsApp).
+   - Desktop navigation links (`Home`, `Collections` → `#categories`, `Ladies & Gents` → `#family-wear`, `About` → `#flagship`, `Reviews` → `#reviews`, `Visit Us` → `#store-visit`, `Contact` → WhatsApp).
    - Desktop direct actions: Directions button (Google Maps) and Click-to-Call button.
    - Mobile hamburger menu button (`#mobile-menu-open`).
 
 2. **Slide-out Navigation Drawer (`#mobile-drawer`)**:
    - Modern glassmorphic backdrop overlay (`#drawer-backdrop`).
-   - Drawer container with store status pill (*"Open today • 10:30 AM – 8:00 PM"*), vertical navigation links, WhatsApp Concierge CTA, and Direct Phone Call CTA.
+   - Drawer container with store status pill (*"Open today • 10:00 AM – 8:00 PM"*), vertical navigation links including *Ladies & Gents*, WhatsApp Concierge CTA, and Direct Phone Call CTA.
    - Full keyboard accessibility (`Escape` key closes drawer) and auto-close when any nav link is tapped.
 
 3. **Top Announcement Banner**:
-   - Highlight: *"Affordable Luxury for Little Ones: Children's fashion, newborn layettes, battery ride-ons & footwear at honest everyday prices."*
+   - Highlight: *"From Babies to Teens: Complete branded children's world, ride-ons & footwear • Specially curated ladies & gents wear in store."*
 
 4. **Section 1: Editorial Hero (`<section>`)**:
    - Asymmetric editorial layout with authentic store photography:
      - Real dusk illuminated facade (`kk-12.webp`) on RG Baruah Road with bilingual signage (`কিৰ্ণভ কৰ্ণৰ`).
-     - Floating inset card highlighting the yellow Mercedes AMG battery ride-on car (`kk-2.webp`).
+     - Floating inset card highlighting the yellow branded battery ride-on sports car (`kk-2.webp`).
      - Verified Google review pill: **4.7 ★ (33+ Google reviews)**.
-     - Trust badges: *Fixed Honest Prices*, *Trial Rooms & Tailoring*, and *Customer Parking*.
+     - Trust badges: *Babies to Teens (Ages 0–16Y)*, *100% Branded (Fixed honest prices)*, *Trial Rooms & Tailoring*, and *Customer Parking*.
    - Two high-contrast CTA buttons: *"Explore collections"* (anchor to `#categories`) and *"Visit our store"* (anchor to `#store-visit`).
 
-5. **Section 2: Curated Categories Grid (`#categories`)**:
-   - 8 structured product category cards grounded in real store inventory:
+5. **Section 2: Curated Categories & Age-Group Guide (`#categories`)**:
+   - **4 Age Group Navigators**:
+     - *Babies & Infants (0–2 Years)*
+     - *Toddlers & Pre-School (2–5 Years)*
+     - *Young Kids & Juniors (6–10 Years)*
+     - *Pre-Teens & Teens (11–16 Years)*
+   - **8 structured product category cards** grounded in real store inventory:
      1. Infant & Newborn Layettes (`0–24M`)
-     2. Kids Fashion & Festive Wear (`1–12Y`)
-     3. Battery Ride-Ons & Trikes (`Test-Drive`)
-     4. Prams, Strollers & Walkers (`Mobility`)
-     5. Kids Footwear Collection (`All Ages`)
+     2. Kids & Teen Fashion (`1–16Y`)
+     3. Curated Ladies Wear (`Curated`)
+     4. Refined Gents Wear (`Curated`)
+     5. Footwear Collection (`0M–16Y`)
      6. Plush Toys & Gifting (`Gift Ready`)
-     7. School & Daycare Essentials (`Daily Prep`)
+     7. School & Daily Essentials (`Daily Prep`)
      8. Baby Care & Nursery Bedding (`Essentials`)
    - Each card features custom icon badges, department descriptions, and direct pre-filled WhatsApp inquiry deep-links.
 
@@ -140,7 +145,7 @@ The layout is built with standard semantic HTML5 inside [`index.html`](file:///d
    - Highlighting the **expansive RG Baruah Road showroom**.
    - Real photographs of the exterior dusk facade (`kk-12.webp`), yellow dinosaur mascot and fitting rooms (`kk-11.webp`), and ride-on vehicle showroom (`kk-2.webp`).
    - In-store distinctives: *Affordable Luxury*, *Trial Rooms*, and *In-House Tailoring* (on-site alteration counter).
-   - Partner brands marquee: *Mee Mee*, *Himalaya BabyCare*, *Morisons Baby Dreams*, *Baybee*, *Doreme*, and *Infinia*.
+   - 100% genuine branded quality: leading national and international children's brands, branded baby gear, ride-ons, and teen apparel.
 
 7. **Section 4: The Kirnav Philosophy (Value Pillars)**:
    - Three cards breaking down why Guwahati parents trust Kirnav Korner:
@@ -157,17 +162,23 @@ The layout is built with standard semantic HTML5 inside [`index.html`](file:///d
      - Giant Plush Soft Toys & Teddies (`kk-13.webp`)
      - Floral Crib Booties & Gold Shoes (`kk-1.webp`)
      - Cushioned Canopy Baby Stroller (`kk-10.webp`)
-     - Kids Party Sandals & Light-Up Sneakers (`kk-7.webp`)
-     - Mercedes AMG Battery Ride-On Sports Car (`kk-2.webp`)
-     - Revolving Disney Sunglasses Carousel (`kk-4.webp`)
+     - Kids & Teen Party Sandals & Light-Up Sneakers (`kk-7.webp`)
+     - Branded Battery Ride-On Sports Car (`kk-2.webp`)
+     - Revolving Branded Sunglasses Carousel (`kk-4.webp`)
    - Each item includes a direct one-tap *"Inquire on WhatsApp"* button with pre-filled item inquiry text.
 
-9. **Section 6: Google Customer Reviews (`#reviews`)**:
-   - Heading: *"Loved by Guwahati Families"*.
-   - Rating badge: 4.7 Stars from 33+ Google reviews with a direct link to Google Maps.
-   - Verified local reviews from Guwahati parents highlighting honest prices, quality garments, patient staff, and diverse collection.
+9. **Section 5B: Specially Curated Ladies & Gents Wear (`#family-wear`)**:
+   - Dedicated small boutique section catering to parents and family shopping:
+     - *Curated Ladies Collection*: Suits, kurtis, and everyday boutique wear.
+     - *Refined Gents Wear*: Fine cotton shirts, kurtas, and smart formal wear.
+     - *Family Coordination & Tailoring*: Coordinated attire with on-site custom alteration counter.
 
-10. **Section 7: Store & Location Experience (`#store-visit`)**:
+10. **Section 6: Google Customer Reviews (`#reviews`)**:
+    - Heading: *"Loved by Guwahati Families"*.
+    - Rating badge: 4.7 Stars from 33+ Google reviews with a direct link to Google Maps.
+    - Verified local reviews from Guwahati parents highlighting honest prices, quality garments, patient staff, and diverse collection.
+
+11. **Section 7: Store & Location Experience (`#store-visit`)**:
     - Comprehensive physical store details: address (Plot 208, RG Baruah Rd, Opp. AIDC, Guwahati), phone number, and hours (10:00 AM – 8:00 PM).
     - Store front visual locator preview card (`kk-4.webp`).
     - 4 in-store amenities: Free customer parking, 100% air-conditioned, fitting trial rooms, and in-store tailoring.

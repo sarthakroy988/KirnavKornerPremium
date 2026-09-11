@@ -23,27 +23,27 @@ async function run() {
     await page.goto('http://localhost:3000/', { waitUntil: 'networkidle0' });
     await new Promise(r => setTimeout(r, 1000));
 
-    // 1. Desktop Hero & Categories
-    await page.screenshot({ path: path.join(outDir, 'desktop-hero-categories.png') });
-    console.log('Saved desktop-hero-categories.png');
+    // 1. Desktop Hero
+    await page.screenshot({ path: path.join(outDir, 'desktop-hero-age-inclusive.png') });
+    console.log('Saved desktop-hero-age-inclusive.png');
 
-    // 2. Scroll to Flagship Showcase & Brands
+    // 2. Desktop Categories & Age Groups
     await page.evaluate(() => {
-      const el = document.querySelector('#flagship');
+      const el = document.querySelector('#categories');
       if (el) el.scrollIntoView({ behavior: 'instant' });
     });
     await new Promise(r => setTimeout(r, 800));
-    await page.screenshot({ path: path.join(outDir, 'desktop-showcase-brands.png') });
-    console.log('Saved desktop-showcase-brands.png');
+    await page.screenshot({ path: path.join(outDir, 'desktop-age-groups.png') });
+    console.log('Saved desktop-age-groups.png');
 
-    // 3. Scroll to Experience & Map
+    // 3. Desktop Curated Ladies & Gents Wear Section
     await page.evaluate(() => {
-      const el = document.querySelector('#store-visit');
+      const el = document.querySelector('#family-wear');
       if (el) el.scrollIntoView({ behavior: 'instant' });
     });
     await new Promise(r => setTimeout(r, 800));
-    await page.screenshot({ path: path.join(outDir, 'desktop-visit-map.png') });
-    console.log('Saved desktop-visit-map.png');
+    await page.screenshot({ path: path.join(outDir, 'desktop-ladies-gents-wear.png') });
+    console.log('Saved desktop-ladies-gents-wear.png');
 
     await page.close();
   }
@@ -56,26 +56,26 @@ async function run() {
     await new Promise(r => setTimeout(r, 1000));
 
     // 1. Mobile Hero
-    await page.screenshot({ path: path.join(outDir, 'mobile-hero.png') });
-    console.log('Saved mobile-hero.png');
+    await page.screenshot({ path: path.join(outDir, 'mobile-hero-age-inclusive.png') });
+    console.log('Saved mobile-hero-age-inclusive.png');
 
-    // 2. Scroll to Mobile Categories
+    // 2. Mobile Age Groups
     await page.evaluate(() => {
       const el = document.querySelector('#categories');
       if (el) el.scrollIntoView({ behavior: 'instant' });
     });
     await new Promise(r => setTimeout(r, 800));
-    await page.screenshot({ path: path.join(outDir, 'mobile-categories.png') });
-    console.log('Saved mobile-categories.png');
+    await page.screenshot({ path: path.join(outDir, 'mobile-age-groups.png') });
+    console.log('Saved mobile-age-groups.png');
 
-    // 3. Scroll to Mobile Showcase
+    // 3. Mobile Ladies & Gents Section
     await page.evaluate(() => {
-      const el = document.querySelector('#flagship');
+      const el = document.querySelector('#family-wear');
       if (el) el.scrollIntoView({ behavior: 'instant' });
     });
     await new Promise(r => setTimeout(r, 800));
-    await page.screenshot({ path: path.join(outDir, 'mobile-showcase.png') });
-    console.log('Saved mobile-showcase.png');
+    await page.screenshot({ path: path.join(outDir, 'mobile-ladies-gents-wear.png') });
+    console.log('Saved mobile-ladies-gents-wear.png');
 
     await page.close();
   }
